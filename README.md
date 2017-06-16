@@ -1,7 +1,7 @@
 # trakstar_node
 ROS Package for Ascension Trakstar
 
-First, set up the TrakStar for use on linux systems (this is separate to ROS). Follow the installation steps as described here, but follow the instructions below when you get to the section "*libusb configuration": 
+First, set up the TrakStar for use on linux systems (this is separate to ROS). Follow the installation steps as described here [ I recommend you just clone the repo to your home directory '~/'], but follow the instructions below when you get to the section "*libusb configuration": 
 https://github.com/ChristophJud/ATC3DGTracker
 
 Device permissions:
