@@ -37,9 +37,11 @@ to launch the node, where each sensor connected will be published on it's own to
 ``
 /trakstar/trakstar_0
 ``
+
 ``
 /trakstar/trakstar_1
 ``
+
 ``
 /trakstar/trakstar_2
 ``
