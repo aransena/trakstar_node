@@ -4,7 +4,7 @@ project(trakstar_node)
 set(CMAKE_AUTOMOC ON) # Tell CMake to run moc when necessary:
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-set(libatclib_DIR ~/repos/ATC3DGTracker/build)
+set(libatclib_DIR ~/ATC3DGTracker/build)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
