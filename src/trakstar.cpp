@@ -50,7 +50,7 @@ int main(int argc, char **argv)
     std::cout << "nSensors: " << numsen << std::endl;
 
     // Setup ROS
-    ros::init(argc, argv, "trakstar");
+    ros::init(argc, argv, "trakstar_node");
     ros::NodeHandle n;
     if(array_mode) {
         sensor_pub = n.advertise<geometry_msgs::PoseArray>("trakstar/trakstar_data", 1000);
