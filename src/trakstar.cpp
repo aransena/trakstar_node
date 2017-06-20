@@ -24,12 +24,12 @@ double inch2m(double inch){
 int main(int argc, char **argv)
 {
     std::stringstream ss;
-    bool array_mode = false;
+    bool array_mode = true;
     if(argc > 1){
 	std::string mode = argv[1];
-	if(mode=="a"){
-	       std::cout << "Array Mode" << std::endl;
- 	       array_mode = true;
+	if(mode=="s"){
+	       std::cout << "Single Mode" << std::endl;
+ 	       array_mode = false;
 	}
     }
     // Setup TrakStar
