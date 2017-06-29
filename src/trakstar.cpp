@@ -12,11 +12,13 @@
 #include "geometry_msgs/Quaternion.h"
 #include "geometry_msgs/PoseStamped.h"
 
+// for convenience when creating quaternions
 float deg2rad(float deg)
 {
     return 2*M_PI * (deg/360);
 }
 
+// trakstar returns inches by default
 double inch2m(double inch){
     return inch*25.4/1000.00;
 }
