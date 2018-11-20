@@ -32,24 +32,8 @@ After setup to run the node, use
 rosrun trakstar_node trakstar
 ```
 
-to launch the node, where each sensor connected will be published on it's own topic (msg type geometry_msg::PoseStamped)
-
-``` bash
-/trakstar/trakstar_0
-
-/trakstar/trakstar_1
-
-/trakstar/trakstar_2
-```
-
-or alternatively, use
-
-``` bash
-rosrun trakstar_node trakstar a
-```
-
 to launch the node where each sensor connected will be published in an array (msg type geometry_msg::PoseArray)
 
 ``` bash
-/trakstar/trakstar_data
+/trakstar/trakstar_data 
 ```
